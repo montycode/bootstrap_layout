@@ -1,0 +1,45 @@
+ body {
+    padding-top: 56px;
+  }
+  
+  .carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  table.hide {
+    display: none;
+  }
+
+  
+/* Characterprofile table design */
+#characterProfileTable thead th:first-of-type {
+  position: relative;
+  width: 28%;
+}
+
+#characterProfileTable thead h1 {
+  text-shadow: none;
+  color: white;
+  padding: 0;
+}
+
+#characterProfileTable .outfit {
+  position: absolute;
+  left: 0;
+  top: -16px;
+}
+#characterProfileTable .flag {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
